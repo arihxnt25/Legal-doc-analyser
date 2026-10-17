@@ -1,0 +1,24 @@
+# data & model artifacts (regenerate with scripts/train.py)
+data/cuad/
+artifacts/*
+!artifacts/.gitkeep
+*.joblib
+*.safetensors
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
